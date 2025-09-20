@@ -1,20 +1,24 @@
-Lens
+Lens 🔍
 
-Lens is a web scraping project built with Python and BeautifulSoup to aggregate news about the Israel–Palestine conflict from multiple trusted sources. The goal is to provide a single, structured dataset that captures diverse perspectives on this critical issue.
+Lens is a powerful web scraping project built with Python, Selenium, and BeautifulSoup to collect and structure news articles about the Israel–Palestine conflict from multiple trusted sources. The goal is to turn raw, unstructured web pages into a clean dataset that captures diverse perspectives on this critical issue.
 
 Features
 
-Scrapes headlines, publication dates, and links from Al Jazeera, BBC, and Reuters.
+Scrapes headlines, subtitles, full article text, and URLs from news sources.
 
-Normalizes articles into a unified format for analysis.
+Currently supports The Guardian and Al Jazeera.
 
-Exports results into CSV for further use or visualization.
+Normalizes articles into a unified structured format.
+
+Exports results into Excel files for further research, analysis, or visualization.
+
+Designed to be extendable for more sources in the future.
 
 Tech Stack
 
 Python
 
-Requests
+Selenium
 
 BeautifulSoup
 
